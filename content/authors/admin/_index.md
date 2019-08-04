@@ -18,15 +18,20 @@ organizations:
   url: "www.ida.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Brian Vickers, PhD is currently is a research staff member at the Institute for Defense Analyses. He is a behavioral scientist by training, whose research focused on how people make decisions about their time, money, physical resources. 
+bio: Brian Vickers, PhD is currently is a research staff member at the Institute for Defense Analyses where he advises on operations, statistical modeling, data communications, and evaluating system performance. He is a behavioral scientist by training, whose research focused on how people make decisions about their time, money, physical resources. 
 
 interests:
-- Programming, primarily R and Python
-- Applied statistics
-- Functional programming
+- Data intelligence, engineering, and journalism
+- Design processes
+- Cybersecurity
+- Hiking
+- My dog
 
 education:
   courses:
+  - course: Data Science Fellow
+    institution: The The Data Incubator, Washington DC
+    year: 2018
   - course: PhD in Cognition and Cognitive Neuroscience
     institution: University of Michigan, Ann Arbor
     year: 2015
@@ -48,12 +53,15 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/BrianDVickers
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?&user=57enG5YAAAAJ
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/bdvickers/
 - icon: github
   icon_pack: fab
   link: https://github.com/BDVickers
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?&user=57enG5YAAAAJ
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -70,6 +78,6 @@ user_groups:
 - Visitors
 ---
 
-Brian Vickers wants to be a badass but isn't very good at it. But he's trying.
+Brian Vickers uses his expertise in decision making and statistics to help people understand and make use of data.
 
 

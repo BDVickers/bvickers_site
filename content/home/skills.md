@@ -18,24 +18,36 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "Exploring, munging, quick EDA"
+  description = "Exploration, munging, EDA"
 
 [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "Productionizing code"
+  description = "Estimation, validation, production"
 
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Visualization"
+  description = "Creativity, transparency"
+  
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "Model validation, inference"  
+  description = "Model selection, inference"  
+
+[[feature]]
+  icon = "comment-alt"
+  icon_pack = "fas"
+  name = "Communication"
+  description = "Applications, talks, reports"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "database"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Databases"
+  description = "Server-side learning"  
 
 +++
