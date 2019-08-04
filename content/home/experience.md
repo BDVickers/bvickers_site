@@ -27,10 +27,11 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Scoping
-  * Analysis
-  * Modeling
-  * Writing Up
+  * Scoping problems
+  * Selection and implementation of operational analyses
+  * Data management, munging, and collaboration
+  * Model selection, validation, implementation
+  * Communication of results
   """
 
 [[experience]]
@@ -40,6 +41,27 @@ date_format = "Jan 2006"
   location = "Saint Louis, Missouri"
   date_start = "2018-08-01"
   date_end = "2019-05-01"
-  description = """Taught lots of fancy shit to his coworkers."""
+  description = """
+  Responsibilities included:
+  
+  * Custom tasking to auto clientelle with program ROI appx. $25M annually
+  * Built pipelines to integrate > 10 legacy systems for machine learning
+  * Automated frequent analyses to point-and-click implementation
+  """
+
+[[experience]]
+  title = "Postdoctoral Researcher (and various)"
+  company = "University of Michigan, Ann Arbor"
+  company_url = "https://lsa.umich.edu/psych"
+  location = "Ann Arbor, MI"
+  date_start = "2018-05-01"
+  date_end = "2019-05-01"
+  description = """
+  Responsibilities included:
+  
+  * Conducted human-subjects research on decision making, how emotions influence decision making, and their neural underpinnings
+  * Consulted on a range of projects in psychology, neuroscience, information science, marketing, public health, medicine, and user experience.
+  * Won a Graham Environmental Sustainabiilty Fellowship, ~$40k personally
+  """
 
 +++
