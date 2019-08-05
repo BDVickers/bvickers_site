@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   * Conducted human-subjects research on decision making, how emotions influence decision making, and their neural underpinnings
   * Consulted on a range of projects in psychology, neuroscience, information science, marketing, public health, medicine, and user experience.
   * Won a Graham Environmental Sustainabiilty Fellowship, ~$40k personally
-  
+
   
   Associated Labs and Professors:
   
