@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Scoping problems
+  * Scoping open-ended problems for analysis
   * Selection and implementation of operational analyses
   * Data management, munging, and collaboration
   * Model selection, validation, implementation
@@ -62,6 +62,13 @@ date_format = "Jan 2006"
   * Conducted human-subjects research on decision making, how emotions influence decision making, and their neural underpinnings
   * Consulted on a range of projects in psychology, neuroscience, information science, marketing, public health, medicine, and user experience.
   * Won a Graham Environmental Sustainabiilty Fellowship, ~$40k personally
+  
+  
+  Associated Labs and Professors:
+  
+  * Emotion and Self-Control Lab, Dr. Ethan Kross
+  * Ecological Neuroscience Lab, Dr. Stephanie Preston
+  * Decision Lab, Dr. J. Frank Yates
   """
 
 +++

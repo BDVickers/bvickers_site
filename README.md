@@ -1,5 +1,7 @@
-# Personal Web Site
+# Brian Vickers' Personal Web Site
 
-Built off of the [Academic Kickstart](https://sourcethemes.com/academic/) template.
+Open-source code for [Brian's personal web site](www.bdvickers.something). 
+
+Thank you to the [Academic](https://sourcethemes.com/academic/) template for helping design and add content along with [Netlify](www.netlify.com) for CI/CD-enabled hosting.
 
 
