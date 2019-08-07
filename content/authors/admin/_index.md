@@ -29,7 +29,7 @@ interests:
 education:
   courses:
   - course: Data Science Fellow
-    institution: The The Data Incubator, Washington DC
+    institution: The Data Incubator, Washington DC
     year: 2018
   - course: PhD in Cognition and Cognitive Neuroscience
     institution: University of Michigan, Ann Arbor
@@ -82,3 +82,5 @@ Brian Vickers uses his expertise in decision making and statistics to help peopl
 After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience Dr. Vickers worked as a postdoctoral researcher. He then went through the Data Science program hosted by the Data Incubator in Washington, DC. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modelling process. 
 
 Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area. 
+
+For more details, feel free to investigate [my resume.](./files/Vickers_ResumeDS.pdf)

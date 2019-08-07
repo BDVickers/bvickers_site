@@ -88,6 +88,20 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-145231263-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
@@ -543,6 +557,8 @@
 
 <p>Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area.</p>
 
+<p>For more details, feel free to investigate <a href="./files/Vickers_ResumeDS.pdf">my resume.</a></p>
+
 
     <div class="row">
 
@@ -572,7 +588,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">Data Science Fellow, 2018</p>
-              <p class="institution">The The Data Incubator, Washington DC</p>
+              <p class="institution">The Data Incubator, Washington DC</p>
             </div>
           </li>
           
@@ -1400,12 +1416,7 @@
   </div>
   <div class="col-12 col-lg-8">
 
-    <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="/publication/">filtering publications</a>.
-  </div>
-</div>
-
+    
 
     
       
@@ -1807,11 +1818,10 @@
     
     
       
-      
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/bvickers dot web plus site at gmail dot com">
+      <form name="contact" method="POST" netlify>
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
