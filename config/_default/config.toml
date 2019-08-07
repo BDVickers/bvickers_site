@@ -16,7 +16,7 @@ baseurl = "/"
 copyright = "&copy; Brian Vickers {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-145231263-1"
 
 ############################
 ## Advanced options below ##
