@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Brian Vickers, PhD</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>The Inaccurate Spectrum of Political Ideology</title>
+      <link>/post/political-ideology/the-spectrum-of-political-ideology/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/political-ideology/the-spectrum-of-political-ideology/</guid>
+      <description>
+
+
+&lt;p&gt;With the recent debates on the Democratic side I have seen people discussion political ideology as a spectrum with some people on the left and some people on the right. I wanted to write a short detail on reasons that doesn’t hold up to statistical scrutiny.&lt;/p&gt;
+&lt;div id=&#34;premise&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Premise&lt;/h2&gt;
+&lt;p&gt;To start, here is what people generally presume. There is an idea that there is a broad spectrum of political ideology and that everyone will fall somewhere on the left or right side of the spectrum. That looks something like this.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(2019)  # For replicability
+n_per_party &amp;lt;- 1000
+political_m &amp;lt;- .75
+pol_cols &amp;lt;- c(&amp;#39;blue&amp;#39;, &amp;#39;tan&amp;#39;, &amp;#39;red&amp;#39;)
+
+## Build some simulated data
+individuals &amp;lt;- bind_rows(
+  # Democrats
+  data.frame(party = &amp;#39;Democrats&amp;#39;, 
+             political_score = rnorm(n = n_per_party, mean = -1 * political_m)),
+  # Republicans
+  data.frame(party = &amp;#39;Republicans&amp;#39;,
+             political_score = rnorm(n = n_per_party, mean = +1 * political_m)),
+  # Independents
+  data.frame(party = &amp;#39;Independents&amp;#39;,
+             political_score = rnorm(n = n_per_party, mean = 0))
+  ) %&amp;gt;% 
+  mutate(party = factor(party, levels = c(&amp;#39;Democrats&amp;#39;, &amp;#39;Independents&amp;#39;, &amp;#39;Republicans&amp;#39;)))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So we can see how things look overall…&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(individuals, aes(x = political_score)) +
+  geom_density(colour = &amp;#39;gray50&amp;#39;, fill = &amp;#39;gray70&amp;#39;, alpha = 1/5) +
+  scale_y_continuous(limits = c(0, .50)) +
+  labs(x = &amp;#39;Political Ideology&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/political-ideology/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Overall_density-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;And when we break it down by political ideology.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(individuals, aes(x = political_score, fill = party)) +
+  geom_density(colour = &amp;#39;gray50&amp;#39;, alpha = 1/5) +
+  scale_fill_manual(values = pol_cols) +
+  scale_y_continuous(limits = c(0, .50)) +
+  theme(legend.position = &amp;#39;top&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/political-ideology/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Density_by_poltical_identification-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

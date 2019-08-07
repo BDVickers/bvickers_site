@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self regulation | Brian Vickers, PhD</title>
+    <link>/tags/self-regulation/</link>
+      <atom:link href="/tags/self-regulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>self regulation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>self regulation</title>
+      <link>/tags/self-regulation/</link>
+    </image>
+    
+    <item>
+      <title>Third-Person Self-Talk Reduces Ebola Worry and Risk Perception by Enhancing Rational Thinking</title>
+      <link>/publication/journal-article/2017_ebola-worry/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017_ebola-worry/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

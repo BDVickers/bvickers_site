@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brian Vickers, PhD</title>
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brian Vickers, PhD</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Brian Vickers, PhD</title>
+      <link>/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title>Third-Person Self-Talk Reduces Ebola Worry and Risk Perception by Enhancing Rational Thinking</title>
+      <link>/publication/journal-article/2017_ebola-worry/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2017_ebola-worry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Psychology of Acquisitiveness</title>
+      <link>/publication/book-chapter/2014_psychology-of-acquisitiveness/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/book-chapter/2014_psychology-of-acquisitiveness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Brian Vickers uses his expertise in decision making and statistics to help people understand and make use of data.&lt;/p&gt;
+
+&lt;p&gt;After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience Dr. Vickers worked as a postdoctoral researcher. He then went through the Data Science program hosted by the Data Incubator in Washington, DC. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modelling process.&lt;/p&gt;
+
+&lt;p&gt;Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

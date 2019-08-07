@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Brian Vickers, PhD</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
+    
+    <item>
+      <title>statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theory</title>
+      <link>/tags/theory/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anxiety</title>
+      <link>/tags/anxiety/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/anxiety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ebola</title>
+      <link>/tags/ebola/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/ebola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psychology</title>
+      <link>/tags/psychology/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self control</title>
+      <link>/tags/self-control/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/self-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self regulation</title>
+      <link>/tags/self-regulation/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/self-regulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acquisitiveness</title>
+      <link>/tags/acquisitiveness/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/acquisitiveness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hoarding</title>
+      <link>/tags/hoarding/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/hoarding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marketing</title>
+      <link>/tags/marketing/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephanie Preston | Brian Vickers, PhD</title>
+    <link>/authors/stephanie-preston/</link>
+      <atom:link href="/authors/stephanie-preston/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stephanie Preston</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Fri, 08 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Stephanie Preston</title>
+      <link>/authors/stephanie-preston/</link>
+    </image>
+    
+    <item>
+      <title>The Psychology of Acquisitiveness</title>
+      <link>/publication/book-chapter/2014_psychology-of-acquisitiveness/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/book-chapter/2014_psychology-of-acquisitiveness/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

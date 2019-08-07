@@ -48,6 +48,6 @@ subtitle = ""
   icon = "database"
   icon_pack = "fas"
   name = "Databases"
-  description = "Server-side learning"  
+  description = "Server-side learning, big data, (No) SQL, APIs"  
 
 +++

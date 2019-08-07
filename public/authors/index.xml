@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Brian Vickers, PhD</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Brian Vickers 2019</copyright><lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Brian Vickers uses his expertise in decision making and statistics to help people understand and make use of data.&lt;/p&gt;
+
+&lt;p&gt;After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience Dr. Vickers worked as a postdoctoral researcher. He then went through the Data Science program hosted by the Data Incubator in Washington, DC. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modelling process.&lt;/p&gt;
+
+&lt;p&gt;Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ariana Orvell</title>
+      <link>/authors/ariana-orvell/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/ariana-orvell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethan Kross</title>
+      <link>/authors/ethan-kross/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/ethan-kross/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Izzy Gainsburg</title>
+      <link>/authors/izzy-gainsburg/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/izzy-gainsburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jason Moser</title>
+      <link>/authors/jason-moser/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/jason-moser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Jonides</title>
+      <link>/authors/john-jonides/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/john-jonides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Margaret Boyer</title>
+      <link>/authors/margaret-boyer/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/margaret-boyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozlem Ayduk</title>
+      <link>/authors/ozlem-ayduk/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/ozlem-ayduk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tim Moran</title>
+      <link>/authors/tim-moran/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/tim-moran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephanie Preston</title>
+      <link>/authors/stephanie-preston/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/stephanie-preston/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

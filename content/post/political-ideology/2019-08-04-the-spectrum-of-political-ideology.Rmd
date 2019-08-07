@@ -19,9 +19,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-output: 
-  html_document: 
-    keep_md: yes
+output: html_document
 editor_options: 
   chunk_output_type: console
 ---
@@ -29,6 +27,7 @@ editor_options:
 ```{r, include = FALSE}
 suppressMessages(library(tidyverse))
 theme_set(theme_minimal())
+knitr::opts_chunk$set(warning = FALSE, error = FALSE)
 ```
 
 
@@ -59,7 +58,7 @@ individuals <- bind_rows(
   mutate(party = factor(party, levels = c('Democrats', 'Independents', 'Republicans')))
 ```
 
-So we can see how things look overall.
+So we can see how things look overall...
 
 ```{r Overall_density}
 ggplot(individuals, aes(x = political_score)) +
@@ -74,8 +73,8 @@ And when we break it down by political ideology.
 ggplot(individuals, aes(x = political_score, fill = party)) +
   geom_density(colour = 'gray50', alpha = 1/5) +
   scale_fill_manual(values = pol_cols) +
-  scale_y_continuous(limits = c(0, .50))
-
+  scale_y_continuous(limits = c(0, .50)) +
+  theme(legend.position = 'top')
 ```
 
 

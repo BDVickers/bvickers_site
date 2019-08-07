@@ -19,9 +19,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-output: 
-  html_document: 
-    keep_md: yes
+output: html_document
 editor_options: 
   chunk_output_type: console
 ---
@@ -50,25 +48,17 @@ individuals &lt;- bind_rows(
              political_score = rnorm(n = n_per_party, mean = 0))
   ) %&gt;% 
   mutate(party = factor(party, levels = c(&#39;Democrats&#39;, &#39;Independents&#39;, &#39;Republicans&#39;)))</code></pre>
-<pre><code>## Warning in bind_rows_(x, .id): Unequal factor levels: coercing to character</code></pre>
-<pre><code>## Warning in bind_rows_(x, .id): binding character and factor vector,
-## coercing into character vector
-
-## Warning in bind_rows_(x, .id): binding character and factor vector,
-## coercing into character vector
-
-## Warning in bind_rows_(x, .id): binding character and factor vector,
-## coercing into character vector</code></pre>
-<p>So we can see how things look overall.</p>
+<p>So we can see how things look overall…</p>
 <pre class="r"><code>ggplot(individuals, aes(x = political_score)) +
   geom_density(colour = &#39;gray50&#39;, fill = &#39;gray70&#39;, alpha = 1/5) +
   scale_y_continuous(limits = c(0, .50)) +
   labs(x = &#39;Political Ideology&#39;)</code></pre>
-<p><img src="/post/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Overall_density-1.png" width="672" /></p>
+<p><img src="/post/political-ideology/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Overall_density-1.png" width="672" /></p>
 <p>And when we break it down by political ideology.</p>
 <pre class="r"><code>ggplot(individuals, aes(x = political_score, fill = party)) +
   geom_density(colour = &#39;gray50&#39;, alpha = 1/5) +
   scale_fill_manual(values = pol_cols) +
-  scale_y_continuous(limits = c(0, .50))</code></pre>
-<p><img src="/post/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Density_by_poltical_identification-1.png" width="672" /></p>
+  scale_y_continuous(limits = c(0, .50)) +
+  theme(legend.position = &#39;top&#39;)</code></pre>
+<p><img src="/post/political-ideology/2019-08-04-the-spectrum-of-political-ideology_files/figure-html/Density_by_poltical_identification-1.png" width="672" /></p>
 </div>

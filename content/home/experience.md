@@ -25,13 +25,11 @@ date_format = "Jan 2006"
   date_start = "2019-05-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Scoping open-ended problems for analysis
-  * Selection and implementation of operational analyses
+  * Scoping open-ended problems based on resources and constraints
+  * Rapid deployment based on sponsor requests
+  * Design, selection, and implementation of operations analyses
+  * Advise on policy and applications of priorities
   * Data management, munging, and collaboration
-  * Model selection, validation, implementation
-  * Communication of results
   """
 
 [[experience]]
@@ -42,11 +40,10 @@ date_format = "Jan 2006"
   date_start = "2018-08-01"
   date_end = "2019-05-01"
   description = """
-  Responsibilities included:
-  
-  * Custom tasking to auto clientelle with program ROI appx. $25M annually
-  * Built pipelines to integrate > 10 legacy systems for machine learning
-  * Automated frequent analyses to point-and-click implementation
+  * Custom tasking to auto clientelle with individual program ROIs up to $250M annually
+  * Built pipelines to integrate data systems from multiple clients for faster, more generalizable insights
+  * Unified shareholder interests by exploring back-ends with billions of transactions, > 300M people, 100s tables in schema, and prioritizing realistic projects
+  * Perfomed a range of analyses for lifetime ROI, sales forecasting, incentive program planning, retention, program ROI, and custom requests
   """
 
 [[experience]]
@@ -57,12 +54,29 @@ date_format = "Jan 2006"
   date_start = "2018-05-01"
   date_end = "2019-05-01"
   description = """
-  Responsibilities included:
-  
-  * Conducted human-subjects research on decision making, how emotions influence decision making, and their neural underpinnings
+  * Conducted human-subjects research on decision making, how emotions influence choice, and their neural underpinnings
   * Consulted on a range of projects in psychology, neuroscience, information science, marketing, public health, medicine, and user experience.
   * Won a Graham Environmental Sustainabiilty Fellowship, ~$40k personally
+  
+  
+  * Methods included: 
+    * Experimental designs
+    * Physiological measurement including fMRI, structural neuroanatomy, electrocardiography, respiration, and electrodermal activity
+    * Emotional/affective elicitation and measurement
+    * Experience sampling methods and measurement, i.e., person-measurement via text message
+    * Millisecond-level reaction time
+    * Survey and structured interview methodologies
+    
+    
+  * Research questions included:
+    * Can a quick, internet intervention decrease Ebola anxiety following cases landing in the USA?
+    * How does the way people talk online relate to people's evolving emotional well-being?
+    * Can the way that we talk about causes increase charitable giving? Can that be tailored based on an individual's background beliefs?
+    * How does time on Facebook impact students' well-being, grades, and social connections?
+    * Are the values that people place on objects stable over time? What ways can they systematically shift?
+    * Are hoarders impulsive generally or is it driven by a desire for certain objects?
 
+  
   
   Associated Labs and Professors:
   

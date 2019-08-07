@@ -1,5 +1,3 @@
-public/
-.idea/
-/resources
 .Rproj.user/
 .Rhistory
+.Rhis.*

@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Brian Vickers">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Data, statistics, operations">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.28db4d2e4773123545371baeb1b2f51a.css">
+
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Brian Vickers, PhD">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@BrianDVickers">
+  <meta property="twitter:creator" content="@BrianDVickers">
+  
+  <meta property="og:site_name" content="Brian Vickers, PhD">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Brian Vickers, PhD">
+  <meta property="og:description" content="Data, statistics, operations"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2019-08-04T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Brian Vickers, PhD</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Brian Vickers, PhD</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/Vickers_ResumeDS.pdf"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/authors/admin/avatar_hu07b298a2b5350a26389ecd87652d0c56_693005_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Brian Vickers</h2>
+        <h3 itemprop="jobTitle">Behavioral Scientist, Statistical Consultant</h3>
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="www.ida.org" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Institute for Defense Analyses</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://twitter.com/BrianDVickers" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/bdvickers/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/BDVickers" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.com/citations?&amp;user=57enG5YAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+    <h1>About</h1>
+
+    <p>Brian Vickers uses his expertise in decision making and statistics to help people understand and make use of data.</p>
+
+<p>After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience Dr. Vickers worked as a postdoctoral researcher. He then went through the Data Science program hosted by the Data Incubator in Washington, DC. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modelling process.</p>
+
+<p>Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Data intelligence, engineering, and journalism</li>
+          
+          <li>Design processes</li>
+          
+          <li>Application of statistical models to novel contexts</li>
+          
+          <li>Hiking, kayaking, and the outdoors</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Data Science Fellow, 2018</p>
+              <p class="institution">The The Data Incubator, Washington DC</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Cognition and Cognitive Neuroscience, 2015</p>
+              <p class="institution">University of Michigan, Ann Arbor</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MA in Cognition and Cognitive Neuroscience, 2011</p>
+              <p class="institution">University of Michigan, Ann Arbor</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BA in Psychology, Philosophy, 2008</p>
+              <p class="institution">University of California, Santa Cruz</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Skills</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
+    <h3>R</h3>
+    <p>Exploration, munging, EDA</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-python"></i></div>
+    <h3>Python</h3>
+    <p>Estimation, validation, production</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-chart-bar"></i></div>
+    <h3>Visualization</h3>
+    <p>Creativity, transparency</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+    <h3>Statistics</h3>
+    <p>Model selection, inference</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-comment-alt"></i></div>
+    <h3>Communication</h3>
+    <p>Applications, talks, reports</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-database"></i></div>
+    <h3>Databases</h3>
+    <p>Server-side learning, big data, (No) SQL, APIs</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Staff Member</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="www.ida.org" target="_blank" rel="noopener">Institute for Defense Analyses</a></h4>
+            <div class="text-muted exp-meta">
+              May 2019 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Alexandria, Virginia</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Scoping open-ended problems based on resources and constraints</li>
+<li>Rapid deployment based on sponsor requests</li>
+<li>Design, selection, and implementation of operations analyses</li>
+<li>Advise on policy and applications of priorities</li>
+<li>Data management, munging, and collaboration
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Senior Decision Sciences Analyst</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.maritzmotivation.com/" target="_blank" rel="noopener">Maritz Motivation Solutions</a></h4>
+            <div class="text-muted exp-meta">
+              Aug 2018 –
+              
+                May 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>Saint Louis, Missouri</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Custom tasking to auto clientelle with individual program ROIs up to $250M annually</li>
+<li>Built pipelines to integrate data systems from multiple clients for faster, more generalizable insights</li>
+<li>Unified shareholder interests by exploring back-ends with billions of transactions, &gt; 300M people, 100s tables in schema, and prioritizing realistic projects</li>
+<li>Perfomed a range of analyses for lifetime ROI, sales forecasting, incentive program planning, retention, program ROI, and custom requests
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Postdoctoral Researcher (and various)</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://lsa.umich.edu/psych" target="_blank" rel="noopener">University of Michigan, Ann Arbor</a></h4>
+            <div class="text-muted exp-meta">
+              May 2018 –
+              
+                May 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>Ann Arbor, MI</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Conducted human-subjects research on decision making, how emotions influence choice, and their neural underpinnings</li>
+<li>Consulted on a range of projects in psychology, neuroscience, information science, marketing, public health, medicine, and user experience.</li>
+
+<li><p>Won a Graham Environmental Sustainabiilty Fellowship, ~$40k personally</p></li>
+
+<li><p>Methods included:</p>
+
+<ul>
+<li>Experimental designs</li>
+<li>Physiological measurement including fMRI, structural neuroanatomy, electrocardiography, respiration, and electrodermal activity</li>
+<li>Emotional/affective elicitation and measurement</li>
+<li>Experience sampling methods and measurement, i.e., person-measurement via text message</li>
+<li>Millisecond-level reaction time</li>
+<li>Survey and structured interview methodologies
+<br />
+<br /></li>
+</ul></li>
+
+<li><p>Research questions included:</p>
+
+<ul>
+<li>Can a quick, internet intervention decrease Ebola anxiety following cases landing in the USA?</li>
+<li>How does the way people talk online relate to people&rsquo;s evolving emotional well-being?</li>
+<li>Can the way that we talk about causes increase charitable giving? Can that be tailored based on an individual&rsquo;s background beliefs?</li>
+<li>How does time on Facebook impact students&rsquo; well-being, grades, and social connections?</li>
+<li>Are the values that people place on objects stable over time? What ways can they systematically shift?</li>
+<li>Are hoarders impulsive generally or is it driven by a desire for certain objects?
+
+<br />
+<br /></li>
+</ul></li>
+</ul>
+
+<p>Associated Labs and Professors:</p>
+
+<ul>
+<li>Emotion and Self-Control Lab, Dr. Ethan Kross</li>
+<li>Ecological Neuroscience Lab, Dr. Stephanie Preston</li>
+<li>Decision Lab, Dr. J. Frank Yates
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Featured Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+  
+    
+
+
+
+<meta content="2017-11-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-11-24 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ethan-kross/">Ethan Kross</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Brian Vickers</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ariana-orvell/">Ariana Orvell</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/izzy-gainsburg/">Izzy Gainsburg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tim-moran/">Tim Moran</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/margaret-boyer/">Margaret Boyer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/john-jonides/">John Jonides</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jason-moser/">Jason Moser</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ozlem-ayduk/">Ozlem Ayduk</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>November 2017</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Applied Psychology: Health and Well-Being, (9)</em> 3, 387 - 409
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/journal-article/2017_ebola-worry/">
+      <img src="/publication/journal-article/2017_ebola-worry/featured_hub37d339ccddbe48c6f25a5ff05366ef4_112719_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3" itemprop="name">
+    <a href="/publication/journal-article/2017_ebola-worry/" itemprop="url">Third-Person Self-Talk Reduces Ebola Worry and Risk Perception by Enhancing Rational Thinking</a>
+  </h3>
+
+  
+  <div class="article-style" itemprop="articleBody">
+    BACKGROUND.  During the fall of 2014, the threat of an Ebola outbreak gripped the United States (Poll, 8–12 October 2014; see Harvard School of Public Health &amp; SSRS, 2014), creating a unique opportunity to advance basic knowledge concerning how emotion regulation works in consequential contexts and translate existing research in this area to inform public health and policy. METHOD.  We addressed these issues by examining whether third‐person self‐talk, a simple technique that promotes emotion regulation, could nudge people into reasoning about Ebola more rationally. In all, 1,257 people from across the United States were asked to write about their feelings about Ebola using their name or I (i.e. third‐person self‐talk vs. first‐person self‐talk) as concerns about Ebola swelled (24 October 2014–26 October 2014. RESULTS.   Third‐person self‐talk led participants who scored high on Ebola worry at baseline to generate more fact‐based reasons not to worry about Ebola, which predicted reductions in their Ebola worry and risk perception. These findings held when controlling for several theoretically relevant covariates, highlighting their robustness. CONCLUSION.  These results demonstrate how a simple linguistic technique can enhance rational thinking and quell worry about a pressing public health threat.
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12103" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/journal-article/2017_ebola-worry/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/aphw.12103" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+  
+    
+
+
+
+<meta content="2014-08-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2014-08-08 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stephanie-preston/">Stephanie Preston</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Brian Vickers</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>August 2014</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      In Preston, Kringelbach, &amp; Knutson (Eds.), <em>The Interdisciplinary Science of Consumption</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/book-chapter/2014_psychology-of-acquisitiveness/">
+      <img src="/publication/book-chapter/2014_psychology-of-acquisitiveness/featured_hud481cd59bf0a8aff1db352f14246fa48_48355_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3" itemprop="name">
+    <a href="/publication/book-chapter/2014_psychology-of-acquisitiveness/" itemprop="url">The Psychology of Acquisitiveness</a>
+  </h3>
+
+  
+  <div class="article-style" itemprop="articleBody">
+    Acquisitiveness as a Normally Distributed Trait
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://books.google.com/books?hl=en&amp;lr=&amp;id=HsciBAAAQBAJ&amp;oi=fnd&amp;pg=PA127&amp;ots=1mbjiTsVvr&amp;sig=QeRSP7eHxda0m52Ws9wI_v0Kc0s" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/book-chapter/2014_psychology-of-acquisitiveness/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="/publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/journal-article/2017_ebola-worry/"  itemprop="url">Third-Person Self-Talk Reduces Ebola Worry and Risk Perception by Enhancing Rational Thinking</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      BACKGROUND.  During the fall of 2014, the threat of an Ebola outbreak gripped the United States (Poll, 8–12 October 2014; see Harvard …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ethan-kross/">Ethan Kross</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Brian Vickers</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ariana-orvell/">Ariana Orvell</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/izzy-gainsburg/">Izzy Gainsburg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tim-moran/">Tim Moran</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/margaret-boyer/">Margaret Boyer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/john-jonides/">John Jonides</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jason-moser/">Jason Moser</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ozlem-ayduk/">Ozlem Ayduk</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12103" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/journal-article/2017_ebola-worry/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/aphw.12103" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/journal-article/2017_ebola-worry/" >
+      <img src="/publication/journal-article/2017_ebola-worry/featured_hub37d339ccddbe48c6f25a5ff05366ef4_112719_150x0_resize_q90_lanczos.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/book-chapter/2014_psychology-of-acquisitiveness/"  itemprop="url">The Psychology of Acquisitiveness</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Acquisitiveness as a Normally Distributed Trait
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stephanie-preston/">Stephanie Preston</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Brian Vickers</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://books.google.com/books?hl=en&amp;lr=&amp;id=HsciBAAAQBAJ&amp;oi=fnd&amp;pg=PA127&amp;ots=1mbjiTsVvr&amp;sig=QeRSP7eHxda0m52Ws9wI_v0Kc0s" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/book-chapter/2014_psychology-of-acquisitiveness/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/book-chapter/2014_psychology-of-acquisitiveness/" >
+      <img src="/publication/book-chapter/2014_psychology-of-acquisitiveness/featured_hud481cd59bf0a8aff1db352f14246fa48_48355_150x0_resize_q90_lanczos.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Popular Topics</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/acquisitiveness/" style="font-size:0.8rem">acquisitiveness</a>
+        
+          
+          
+          
+          <a href="/tags/anxiety/" style="font-size:0.8rem">anxiety</a>
+        
+          
+          
+          
+          <a href="/tags/ebola/" style="font-size:0.8rem">ebola</a>
+        
+          
+          
+          
+          <a href="/tags/hoarding/" style="font-size:0.8rem">hoarding</a>
+        
+          
+          
+          
+          <a href="/tags/marketing/" style="font-size:0.8rem">marketing</a>
+        
+          
+          
+          
+          <a href="/tags/psychology/" style="font-size:1.8725805810714777rem">psychology</a>
+        
+          
+          
+          
+          <a href="/tags/self-control/" style="font-size:0.8rem">self control</a>
+        
+          
+          
+          
+          <a href="/tags/self-regulation/" style="font-size:0.8rem">self regulation</a>
+        
+          
+          
+          
+          <a href="/tags/statistics/" style="font-size:0.8rem">statistics</a>
+        
+          
+          
+          
+          <a href="/tags/theory/" style="font-size:0.8rem">theory</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/bvickers dot web plus site at gmail dot com">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
+        <a href="https://twitter.com/BrianDVickers" target="_blank" rel="noopener">Twitter</a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li fab fa-linkedin fa-2x" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/bdvickers/" target="_blank" rel="noopener">LinkedIn</a>
+      </li>
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Brian Vickers 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
