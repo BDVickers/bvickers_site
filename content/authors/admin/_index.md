@@ -79,8 +79,8 @@ user_groups:
 
 Brian Vickers uses his expertise in decision making and statistics to help people understand and make use of data.
 
-After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience Dr. Vickers worked as a postdoctoral researcher. He then went through the Data Science program hosted by the Data Incubator in Washington, DC. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modelling process. 
+After graduating with a PhD from the University of Michigan, Ann Arbor program in Cognition and Cognitive Neuroscience, Dr. Vickers worked as a postdoctoral researcher. He was offered and attended a Data Science Fellowship by the Data Incubator in Washington, DC, which included topics for full-stack development processes. Since then he has professionally advised on structuring decision environments, system design and evaluation, and various aspects of the statistical modeling process. 
 
-Brian lives and works in the Washing DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area. 
+Brian lives and works in the Washington, DC area with his wife and dog. He enjoys reading broadly, travelling, camping, and exploring the area. 
 
 For more details, feel free to investigate [my resume.](./files/Vickers_ResumeDS.pdf)
